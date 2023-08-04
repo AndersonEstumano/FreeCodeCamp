@@ -1,0 +1,44 @@
+main {
+  text-align: center;
+}
+h1 {
+  padding-top: 50px;
+}
+
+p {
+  font-style: italic;
+}
+
+body {
+  font-family: Helvetica;
+  background-color: gray;
+}
+
+#image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+section, ul {
+  text-align: left;
+  max-width: 550px;
+  margin: 0 auto 30px auto;
+}
+
+legend {
+  padding-top: 10px;
+  text-align: left;
+  max-width: 900px;
+  margin: 0 auto 30px auto;
+}
+
+li {
+  padding-bottom: 25px;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
