@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Guitar Land | Product Landing Page</title>
+  </head>
+  <body>
+    <header id="header">
+      <div class="logo">
+        <img id="header-img" src="guitar_logo.png" alt="Guitar Land Logo">
+      </div>
+  
+      <nav id="nav-bar">
+        <a class="nav-link" href="#home">HOME</a>
+        <a class="nav-link" href="#products">PRODUCTS</a>
+        <a class="nav-link" href="#contact">CONTACT</a>
+      </nav>
+    </header>
+    <main>
+      <section id="home">
+        <div class="hero">
+          <h1>Welcome to Guitar Land</h1>
+          <p>Explore our wide range of guitars and find your perfect instrument.</p>
+          <a href="#products" class="cta-btn">View Products</a>
+        </div>
+      </section>
+      <section id="products">
+        <h2>Our Products</h2>
+        <div class="product-grid">
+          <div class="product-item">
+            <img src="guitar1.jpg" alt="Acoustic Guitar">
+            <h3>Acoustic Guitar</h3>
+            <p>Perfect for beginners and acoustic enthusiasts.</p>
+          </div>
+          <div class="product-item">
+            <img src="guitar2.jpg" alt="Electric Guitar">
+            <h3>Electric Guitar</h3>
+            <p>Experience the power and versatility of electric guitars.</p>
+          </div>
+          <div class="product-item">
+            <img src="guitar3.jpg" alt="Bass Guitar">
+            <h3>Bass Guitar</h3>
+            <p>For all the bassists out there. Get that deep, groovy sound.</p>
+          </div>
+        </div>
+      </section>
+      <section id="video.1">
+        <h2>Product Video</h2>
+        <div class="video-container">
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/Nn7EX3zkGUo?list=PLhQjrBD2T380xvFSUmToMMzERZ3qB5Ueu" title="Guitar Land Product Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Have a question or need assistance? Feel free to get in touch with us.</p>
+        <form id="form" method="post" action="https://www.freecodecamp.com/email-submit">
+          <fieldset>
+            <label for="email">Enter your email:</label>
+            <input id="email" type="email" name="email" placeholder="Your email address" required>
+            <input id="submit" type="submit" value="Submit">
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Guitar Land. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
