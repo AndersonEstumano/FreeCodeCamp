@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Help us to improve</p>
+    <form id="survey-form">
+      <fieldset>
+        <label id="name-label" for="name" >Name <input id="name" type="text" name="name" placeholder="Enter your name" required /></label>
+        <label for="email" id="email-label">Email <input id="email" type="email" name="email" placeholder="Enter your email" required/></label>
+        <label for="number" id="number-label">Age <input id="number" type="number" name="number" min="13" max="120" placeholder="Enter your age" required /></label>
+        <label for="work">What is your job?
+          <select id="dropdown">
+            <option>Select one</option>
+            <option>Student</option>
+            <option>Back-end Developer</option>
+            <option>Front-end Developer</option>
+            <option>Full-stack Developer</option>
+            <option>Software Engineer</option>
+            <option>Other</option>
+          </select>
+        </label>
+        <label for="recommendation">Would you recommend our services to a friend?
+        <label for="definitely"><input id="definitely" type="radio" name="option" value="1" class="inline" />Definitely</label>
+        <label for="maybe"><input id="maybe" type="radio" name="option" value="2" class="inline"/>Maybe</label>
+        <label for="not-sure"><input id="not-sure" type="radio" name="option" value="3" class="inline"/>Not sure</label>
+        </fieldset>
+        <fieldset>
+        </label>
+        <label for="opnion">What would you like to see improved? (check all that apply)
+         <label> <input id="communication" type="checkbox" value="0" class="inline" />Communication </label>
+         <label> <input id="time" type="checkbox" value="1" class="inline"/>Delivery of project</label>
+          <label><input id="ux" type="checkbox" value="2" class="inline"/>User Experience</label>
+         <label> <input id="design" type="checkbox" value="3" class="inline"/>Design</label>
+        </label>
+        </fieldset>
+        <fieldset>
+        <label for="comments">Any comments or suggestions?
+          <textarea id="comments" name="comments" rols="10" cols="30"></textarea>
+        </label>
+      </fieldset>
+      <input id="submit" type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
