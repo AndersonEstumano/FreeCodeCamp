@@ -1,0 +1,169 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li, form {
+  margin: 0;
+  padding: 0;
+}
+
+/* Set default font and background */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Style the navbar */
+#navbar {
+  background-color: #263238; /* Dark Blue-Gray */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9999;
+}
+
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 10px 0;
+}
+
+#navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+/* Style the welcome section */
+#welcome-section {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #546e7a; /* Blue-Gray */
+  color: #fff;
+}
+
+.hero {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+/* Style the projects section */
+#projects {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#projects h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.project-tile {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin-bottom: 20px;
+}
+
+.project-tile h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-tile p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.project-tile a {
+  text-decoration: none;
+  background-color: #1e88e5; /* Bright Blue */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Style the contact section */
+#contact {
+  padding: 40px 0;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc; /* Light Gray */
+  border-radius: 5px;
+}
+
+form .btn {
+  background-color: #e53935; /* Red */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the profile link in the footer */
+footer {
+  text-align: center;
+  padding: 20px;
+}
+
+#profile-link {
+  text-decoration: none;
+  background-color: #009688; /* Teal */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+/* Media query for responsive design */
+@media screen and (max-width: 768px) {
+  /* Adjust styles for smaller screens */
+  .hero h1 {
+    font-size: 28px;
+  }
+
+  .hero p {
+    font-size: 18px;
+  }
+
+  .project-tile h3 {
+    font-size: 20px;
+  }
+
+  .project-tile p {
+    font-size: 14px;
+  }
+
+  form input,
+  form textarea {
+    max-width: 100%;
+  }
+}
