@@ -21,7 +21,7 @@ form {
   width: 60vw;
   max-width: 500px;
   min-width: 300px;
-  margin: 1 auto;
+  margin:  auto;
   padding-bottom: 2em;
   background-color: rgba(90, 90, 120, 0.9)
 }
